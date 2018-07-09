@@ -26,7 +26,7 @@ struct flow_metadata
 /* maximum amount of data to read in a 'recv' system call */
 #define TG_MAX_READ (1 << 20)
 /* default initial number of TCP connections per pair */
-#define TG_PAIR_INIT_CONN 5
+#define TG_PAIR_INIT_CONN 10
 /* default goodput / link capacity ratio */
 #define TG_GOODPUT_RATIO (1448.0 / (1500 + 14 + 4 + 8 + 12))
 
